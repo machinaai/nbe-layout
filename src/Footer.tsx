@@ -1,34 +1,46 @@
-import { CopyrightOutlined, GithubOutlined } from '@ant-design/icons';
+import { CopyrightOutlined } from '@ant-design/icons';
 import { Layout } from 'antd';
 import React, { Fragment, CSSProperties } from 'react';
 
 import GlobalFooter from './GlobalFooter';
 import { WithFalse } from './typings';
+import nova from './assets/logo/nova.svg';
+import twitter from './assets/icons/twitter.svg';
+import linkedin from './assets/icons/linkedin.svg';
+import facebook from './assets/icons/facebook.svg';
+import instagram from './assets/icons/instagram.svg';
 
 const { Footer } = Layout;
 
 const defaultLinks = [
   {
-    key: 'React Designer',
-    title: 'React Designer',
-    href: 'https://pro.ant.design',
+    key: 'twitter',
+    title: <img src={twitter} alt="twitter" />,
+    href: 'https://twitter.com/novasolutionsys/',
     blankTarget: true,
   },
   {
-    key: 'github',
-    title: <GithubOutlined />,
-    href: 'https://github.com/machinaai/ant-design-pro',
+    key: 'linkedin',
+    title: <img src={linkedin} alt="linkedin" />,
+    href: 'https://www.linkedin.com/company/novasolutionsystems/',
     blankTarget: true,
   },
   {
-    key: 'Ant Design',
-    title: 'Ant Design',
-    href: 'https://ant.design',
+    key: 'facebook',
+    title: <img src={facebook} alt="facebook" />,
+    href: 'https://www.facebook.com/novasolutionsystems/',
+    blankTarget: true,
+  },
+  {
+    key: 'instagram',
+    title: <img src={instagram} alt="instagram" />,
+    href: 'https://www.instagram.com/novasolutionsystems/',
     blankTarget: true,
   },
 ];
 
-const defaultCopyright = '2020 machina.ai';
+const today = new Date();
+const currentYear = today.getFullYear();
 
 export interface FooterProps {
   links?: WithFalse<
@@ -56,7 +68,14 @@ const FooterView: React.FC<FooterProps> = ({
       copyright={
         copyright === false ? null : (
           <Fragment>
-            Copyright <CopyrightOutlined /> {copyright || defaultCopyright}
+            <a
+              href="https://novasolutionsystems.com/"
+              target="blank"
+              style={{ color: 'rgba(0,0,0,0.45)' }}
+            >
+              <img src={nova} alt="nova" /> Nova <CopyrightOutlined /> Copyright{' '}
+              {currentYear}
+            </a>
           </Fragment>
         )
       }
