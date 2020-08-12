@@ -21,5 +21,6 @@
       "@machinaai/pro-layout": ["./src"]
     }
   },
-  "include": ["src/"]
+  "include": ["src/"],
+  "files": ["images.d.ts"]
 }

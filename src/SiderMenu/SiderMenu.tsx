@@ -8,6 +8,7 @@ import './index.less';
 import { WithFalse } from '../typings';
 import BaseMenu, { BaseMenuProps } from './BaseMenu';
 import MenuCounter from './Counter';
+import logoNbe from '../assets/logo/bne-logo.svg';
 
 const { Sider } = Layout;
 
@@ -25,11 +26,7 @@ export const defaultRenderLogoAndTitle = (
   props: SiderMenuProps,
   renderKey: string = 'menuHeaderRender',
 ): React.ReactNode => {
-  const {
-    logo = 'https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg',
-    title,
-    layout,
-  } = props;
+  const { logo = logoNbe, title, layout } = props;
   const renderFunction = props[renderKey || ''];
   if (renderFunction === false) {
     return null;
@@ -100,7 +97,7 @@ const SiderMenu: React.FC<SiderMenuProps> = (props) => {
     menuContentRender,
     prefixCls = 'ant-pro',
     onOpenChange,
-    headerHeight
+    headerHeight,
   } = props;
   const baseClassName = `${prefixCls}-sider`;
   const { flatMenuKeys } = MenuCounter.useContainer();
