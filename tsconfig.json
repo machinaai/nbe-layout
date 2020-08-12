@@ -21,7 +21,7 @@
       "@machinaai/pro-layout": ["./src"]
     }
   },
-  "include": ["**/src/", "**/docs/", "**/tests/", "**/images.d.ts"],
+  "include": ["**/src/", "**/docs/", "**/tests/"],
   "exclude": [
     "node_modules",
     "build",
@@ -33,5 +33,6 @@
     "tslint-config-prettier",
     "example",
     "**/docs/"
-  ]
+  ],
+  "files": ["images.d.ts"]
 }
