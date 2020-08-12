@@ -21,7 +21,7 @@
       "@machinaai/pro-layout": ["./src"]
     }
   },
-  "include": ["**/src/", "**/docs/", "**/tests/", "**/custom.d.ts"],
+  "include": ["**/src/", "**/docs/", "**/tests/", "**/images.d.ts"],
   "exclude": [
     "node_modules",
     "build",
