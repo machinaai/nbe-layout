@@ -41,6 +41,16 @@ const defaultLinks = [
 
 const today = new Date();
 const currentYear = today.getFullYear();
+const footerNova = (
+  <a
+    href="https://novasolutionsystems.com/"
+    target="blank"
+    style={{ color: 'rgba(0,0,0,0.45)' }}
+  >
+    <img src={nova} alt="nova" /> Nova <CopyrightOutlined /> Copyright{' '}
+    {currentYear}
+  </a>
+);
 
 export interface FooterProps {
   links?: WithFalse<
@@ -67,16 +77,7 @@ const FooterView: React.FC<FooterProps> = ({
       links={links !== undefined ? links : defaultLinks}
       copyright={
         copyright === false ? null : (
-          <Fragment>
-            <a
-              href="https://novasolutionsystems.com/"
-              target="blank"
-              style={{ color: 'rgba(0,0,0,0.45)' }}
-            >
-              <img src={nova} alt="nova" /> Nova <CopyrightOutlined /> Copyright{' '}
-              {currentYear}
-            </a>
-          </Fragment>
+          <Fragment> {copyright || footerNova}</Fragment>
         )
       }
     />

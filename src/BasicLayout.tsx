@@ -33,7 +33,6 @@ import MenuCounter from './SiderMenu/Counter';
 import WrapContent from './WrapContent';
 import { useDocumentTitle } from './utils/hooks';
 import compatibleLayout from './utils/compatibleLayout';
-import logoNbe from './assets/logo/bne-logo.svg';
 
 export type BasicLayoutProps = Partial<RouterTypes<Route>> &
   SiderMenuProps &
@@ -469,7 +468,8 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
 };
 
 BasicLayout.defaultProps = {
-  logo: logoNbe,
+  logo:
+    'https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg',
   ...defaultSettings,
   prefixCls: 'ant-pro',
   siderWidth: 220,
