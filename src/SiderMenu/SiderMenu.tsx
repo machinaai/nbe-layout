@@ -8,7 +8,7 @@ import './index.less';
 import { WithFalse } from '../typings';
 import BaseMenu, { BaseMenuProps } from './BaseMenu';
 import MenuCounter from './Counter';
-import logoNbe from '../assets/logo/bne-logo.svg';
+import logoNbe from '../assets/logo/nbe-logo.svg';
 
 const { Sider } = Layout;
 
