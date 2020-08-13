@@ -469,7 +469,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
 
 BasicLayout.defaultProps = {
   logo:
-    'https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg',
+    'https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg',
   ...defaultSettings,
   prefixCls: 'ant-pro',
   siderWidth: 220,

@@ -22,7 +22,7 @@ exports[`BasicLayout 🥩 base use 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -121,7 +121,7 @@ exports[`BasicLayout 🥩 contentStyle should change dom 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -221,7 +221,7 @@ exports[`BasicLayout 🥩 menuDataRender change date 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -320,7 +320,7 @@ exports[`BasicLayout 🥩 menuDataRender change date 2`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -439,7 +439,7 @@ exports[`BasicLayout 🥩 support loading 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -563,7 +563,7 @@ exports[`BasicLayout 🥩 support menuDataRender 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer

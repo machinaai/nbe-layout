@@ -22,7 +22,7 @@ exports[`BasicLayout base use 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -175,7 +175,7 @@ exports[`BasicLayout content is text 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/nbe-layout/feat/nbe-layout/src/assets/logo/bne-logo.svg"
+              src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
