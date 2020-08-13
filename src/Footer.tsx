@@ -4,36 +4,51 @@ import React, { Fragment, CSSProperties } from 'react';
 
 import GlobalFooter from './GlobalFooter';
 import { WithFalse } from './typings';
-import nova from './assets/logo/nova.svg';
-import twitter from './assets/icons/twitter.svg';
-import linkedin from './assets/icons/linkedin.svg';
-import facebook from './assets/icons/facebook.svg';
-import instagram from './assets/icons/instagram.svg';
 
 const { Footer } = Layout;
 
 const defaultLinks = [
   {
     key: 'twitter',
-    title: <img src={twitter} alt="twitter" />,
+    title: (
+      <img
+        src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/icons/twitter.svg"
+        alt="twitter"
+      />
+    ),
     href: 'https://twitter.com/novasolutionsys/',
     blankTarget: true,
   },
   {
     key: 'linkedin',
-    title: <img src={linkedin} alt="linkedin" />,
+    title: (
+      <img
+        src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/icons/linkedin.svg"
+        alt="linkedin"
+      />
+    ),
     href: 'https://www.linkedin.com/company/novasolutionsystems/',
     blankTarget: true,
   },
   {
     key: 'facebook',
-    title: <img src={facebook} alt="facebook" />,
+    title: (
+      <img
+        src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/icons/facebook.svg"
+        alt="facebook"
+      />
+    ),
     href: 'https://www.facebook.com/novasolutionsystems/',
     blankTarget: true,
   },
   {
     key: 'instagram',
-    title: <img src={instagram} alt="instagram" />,
+    title: (
+      <img
+        src="https://github.com/machinaai/nbe-layout/blob/master/src/assets/icons/instagram.svg"
+        alt="instagram"
+      />
+    ),
     href: 'https://www.instagram.com/novasolutionsystems/',
     blankTarget: true,
   },
@@ -47,8 +62,11 @@ const footerNova = (
     target="blank"
     style={{ color: 'rgba(0,0,0,0.45)' }}
   >
-    <img src={nova} alt="nova" /> Nova <CopyrightOutlined /> Copyright{' '}
-    {currentYear}
+    <img
+      src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nova.svg"
+      alt="nova"
+    />{' '}
+    Nova <CopyrightOutlined /> Copyright {currentYear}
   </a>
 );
 

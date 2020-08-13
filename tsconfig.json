@@ -33,6 +33,5 @@
     "tslint-config-prettier",
     "example",
     "**/docs/"
-  ],
-  "files": ["images.d.ts"]
+  ]
 }

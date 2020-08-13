@@ -18,7 +18,7 @@ exports[`DefaultFooter test copyright support false 1`] = `
       >
         <img
           alt="twitter"
-          src="[object Object]"
+          src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/icons/twitter.svg"
         />
       </a>
       <a
@@ -28,7 +28,7 @@ exports[`DefaultFooter test copyright support false 1`] = `
       >
         <img
           alt="linkedin"
-          src="[object Object]"
+          src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/icons/linkedin.svg"
         />
       </a>
       <a
@@ -38,7 +38,7 @@ exports[`DefaultFooter test copyright support false 1`] = `
       >
         <img
           alt="facebook"
-          src="[object Object]"
+          src="https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/icons/facebook.svg"
         />
       </a>
       <a
@@ -48,7 +48,7 @@ exports[`DefaultFooter test copyright support false 1`] = `
       >
         <img
           alt="instagram"
-          src="[object Object]"
+          src="https://github.com/machinaai/nbe-layout/blob/master/src/assets/icons/instagram.svg"
         />
       </a>
     </div>

@@ -8,7 +8,6 @@ import './index.less';
 import { WithFalse } from '../typings';
 import BaseMenu, { BaseMenuProps } from './BaseMenu';
 import MenuCounter from './Counter';
-import logoNbe from '../assets/logo/nbe-logo.svg';
 
 const { Sider } = Layout;
 
@@ -26,7 +25,11 @@ export const defaultRenderLogoAndTitle = (
   props: SiderMenuProps,
   renderKey: string = 'menuHeaderRender',
 ): React.ReactNode => {
-  const { logo = logoNbe, title, layout } = props;
+  const {
+    logo = 'https://raw.githubusercontent.com/machinaai/nbe-layout/master/src/assets/logo/nbe-logo.svg',
+    title,
+    layout,
+  } = props;
   const renderFunction = props[renderKey || ''];
   if (renderFunction === false) {
     return null;
